@@ -19,7 +19,7 @@ client.on('ready', async () => {
         }else{
         if(C[i].isGroup === true && C[i].pinned === false){
         await C[i].clearMessages();
-        console.log(C[i].name, "Cleared Messages: ✅")
+        console.log(C[i].name, "🙌😉")
         count++;
              }
         }
